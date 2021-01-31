@@ -1,0 +1,21 @@
+// Comment
+
+// Properties
+MasterTimeout 2000
+Slaves 10
+SlaveProcessingTime 300
+SlaveProcessingTimeJitter 50
+UseChecksum False
+CorruptionChance 0.01
+CorruptionAttempts 3
+
+// Instructions
+Begin
+0105DEADFF00
+Delay 500
+0101DEAA000A
+Delay 1000
+0101DEAA000A
+0201DEAA000A
+0A01DEAA000A
+1A01DEAA000A
